@@ -15,7 +15,19 @@ public class Circulo {
 		centroY =y;
 		raio = r;
 	}
-	
+
+	public double getCentroX() {
+		return centroX;
+	}
+
+	public double getCentroY() {
+		return centroY;
+	}
+
+	public double getRaio() {
+		return raio;
+	}
+
 	public void move(double newX, double newY) {
 		centroX = newX;
 		centroY = newY;
